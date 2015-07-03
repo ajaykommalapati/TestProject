@@ -239,4 +239,12 @@
          <web:Fahrenheit>?</web:Fahrenheit>\r
       </web:FahrenheitToCelsius>\r
    </soap:Body>\r
+</soap:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.w3schools.com/webservices/TempConvertSoap/FahrenheitToCelsiusRequest"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="request" name="Copy of Copy of Copy of FahrenheitToCelsius - Santhosh5"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>TempConvertSoap12</con:interface><con:operation>FahrenheitToCelsius</con:operation><con:request name="Copy of Copy of Copy of FahrenheitToCelsius - Santhosh5" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.w3schools.com/webservices/tempconvert.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.w3schools.com/webservices/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:FahrenheitToCelsius>\r
+         <!--Optional:-->\r
+         <web:Fahrenheit>?</web:Fahrenheit>\r
+      </web:FahrenheitToCelsius>\r
+   </soap:Body>\r
 </soap:Envelope>]]></con:request><con:assertion type="SOAP Response" name="SOAP Response"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.w3schools.com/webservices/TempConvertSoap/FahrenheitToCelsiusRequest"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
